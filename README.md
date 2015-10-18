@@ -28,7 +28,7 @@ char name;
 string acc_no;
 double balance;
 public:
-Bank(char, string,double);
+Bank(char NM = 0, string AN = 0, double BL = 0.0);
 char getname();
 string getacc_no();
 double getbalance();
